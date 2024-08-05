@@ -1,0 +1,17 @@
+{
+  "name": "node-music-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "rename": "node index.js --type=rename --source=music --mode=1",
+    "move": "node index.js --type=move --source=music --dist=files --mode=1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.8",
+    "node-id3": "^0.2.6"
+  }
+}
